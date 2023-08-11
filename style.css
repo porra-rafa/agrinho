@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(114, 114, 114);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(26, 211, 26);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .carousel-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
